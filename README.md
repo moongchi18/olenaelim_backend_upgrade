@@ -18,7 +18,7 @@
 # 개선방향
 | 구분 | AS-IS | TO-BE |
 |----------|----------|----------|
-| [x] 설정 | properties | yaml |
+| - [x] 설정 | properties | yaml |
 | OM/ORM | Mybatis | JPA |
 | Java | 17 | 21 |
 | Spring Boot | 2.7 | 3.2 |
