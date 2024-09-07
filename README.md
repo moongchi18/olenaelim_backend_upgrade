@@ -16,7 +16,7 @@
 | FrontEnd  | 상품 관련 페이지 |  
 
 # 개선방향
-| 완료여부 | 구분 | AS-IS | TO-BE |
+| 완료 | 구분 | AS-IS | TO-BE |
 |----------|----------|----------|----------|
 | ✓ | 설정 | properties | yaml |
 | ✕ | OM/ORM | Mybatis | JPA |
