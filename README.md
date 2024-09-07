@@ -18,9 +18,9 @@
 # 개선방향
 | 완료여부 | 구분 | AS-IS | TO-BE |
 |----------|----------|----------|----------|
-| - [x] | 설정 | properties | yaml |
-| - [ ] | OM/ORM | Mybatis | JPA |
-| - [] | Java | 17 | 21 |
-| - [] | Spring Boot | 2.7 | 3.2 |
-| - [] | Build | Maven | Gradle |
-| - [] | Test | - | coverage 80%↑ |
+| ✓ | 설정 | properties | yaml |
+| ✕ | OM/ORM | Mybatis | JPA |
+| ✕ | Java | 17 | 21 |
+| ✕ | Spring Boot | 2.7 | 3.2 |
+| ✕ | Build | Maven | Gradle |
+| ✕ | Test | - | coverage 80%↑ |
