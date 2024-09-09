@@ -1,5 +1,6 @@
 package auction.guad.entity;
 
+import auction.guad.constant.Gender;
 import lombok.Getter;
 
 import javax.persistence.*;
@@ -27,8 +28,4 @@ public class Member {
     private String managerYn;
     private String deleteYn;
     private LocalDateTime updateDateTime;
-
-    enum Gender{
-        MALE,FEMALE;
-    }
 }
