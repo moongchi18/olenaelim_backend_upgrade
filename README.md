@@ -15,7 +15,7 @@
 | BackEnd   | 인증/인가(Security), 채팅서버 구성(Websocket, Stomp), 상품 정보 조회 API | 
 | FrontEnd  | 상품 관련 페이지 |  
 
-# 개선방향
+## 개선방향
 | 완료 | 구분 | AS-IS | TO-BE |
 |----------|----------|----------|----------|
 | ✓ | 설정 | properties | yaml |
@@ -24,3 +24,12 @@
 | ✕ | Spring Boot | 2.7 | 3.2 |
 | ✕ | Build | Maven | Gradle |
 | ✕ | Test | - | coverage 80%↑ |
+
+### 설정 개선
+  - AS-IS
+    - 환경별로 상이한 정보(DB, fileDirectory)를 환경마다 바꿔가며 배포
+
+  - TO-BE
+    - 환경별(local, aws) 설정을 프로필별로 분리하여 배포 과정 간소화
+    - 환경별 공통 설정은 common 프로필에 분리
+
